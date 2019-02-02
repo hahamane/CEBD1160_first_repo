@@ -1,0 +1,5 @@
+docker build -t mynewimage . ## mount 
+docker run -ti mynewimage
+docker run -ti -v /folder_name:/folder_name mynewimage ## to share a folder between the host and client
+
+
